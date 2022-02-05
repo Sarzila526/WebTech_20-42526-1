@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport">
+  <title>Contact</title>
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+  <style>
+   .h1 {
+	   font-family: "Sofia", sans-serif;
+	   font-size: 60px;
+	   text-transform: uppercase;
+	   }
+   .h4 {
+	   font-family: "Papyrus", Fantasy;
+	   font-size: 24px ;
+	   text-align: right;
+	   }
+	li {
+	   display: inline;
+	   }
+	ul {
+	   list-style-type: none;
+	   margin: 0;
+	   padding: 0;
+	   overflow: hidden;
+	   border: 0px solid;
+	   background-color: #f3f3f3;
+	   }
+   .nav li {
+	   display: inline-block;
+	   }
+   .nav ul {
+       padding: 1%;
+	   border: 0px solid;
+	   background-color: #f3f3f3;
+	   text-align: center;
+	   }
+   .nav a{
+	   text-align: center;
+	   width: 14%;
+	   height: auto;
+	   margin: auto;
+	   }
+	li {
+	   float: left;
+	   }
+    li a {
+	   display: block;
+	   color: #000000;
+	   text-align: center;
+	   padding: 20px 22px;
+	   text-decoration: none;
+	   }
+	li a:hover {
+	   background-color: #A9A9A9;
+	   }
+	li a:active{
+	   background-color: #A9A9A9;
+	   }
+    main {
+	   background-color: #F2827F;
+	   }
+	div.a {
+	   border-radius: 4px;
+	   padding: 12px;
+	   }
+	input, select {
+	   width: 50%;
+	   padding: 12px 18px;
+	   margin: 8px 0;
+	   display: inline-block;
+	   text-align: left;
+	   border: 0px solid ;
+	   border-radius: 4px;
+	   box-sizing: border-box;
+	   }
+	label {
+	   width: 50%;
+	   padding: 0px 10px;
+	   margin: 4px 0;
+	   text-align: left;
+	   font-size: 17px;
+	   color: #0000FF;
+	   border: 0px solid ;
+	   box-sizing: border-box;
+	   }
+	input[type=submit] {
+	   width: 20%;
+	   background-color: #4CAF50;
+	   color: white;
+	   padding: 8px 13px;
+	   margin: 8px 0;
+	   text-align: center;
+	   font-size: 26px;
+	   letter-spacing: 2px;
+	   border-radius: 4px;
+	   }
+	input[type=submit]:hover { 
+	   background-color: #45a049;
+	   }
+   .fa {
+	   padding: 20px;
+	   font-size: 30px;
+	   width: 50px;
+	   text-align: center;
+	   text-decoration: none;
+	   margin: 5px 2px;
+	   }
+	   .fa:hover {
+	   opacity: 0.65;
+	   }
+    .fa-facebook {
+	   background: #3B5998;
+	   color: #FFFFFF;
+	   }
+    .fa-twitter {
+	   background: #00ACEE;
+	   color: #FFFFFF;
+	   }
+    .fa-instagram {
+	   display: inline-block;
+	   color: #FFFFFF;
+	   background: #d6249f;
+	   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949     45%,#d6249f 60%,#285AEB 90%);
+	   box-shadow: 0px 3px 10px rgba(0,0,0,.25)
+	   }
+    .fa-linkedin {
+	   background: #007bb5;
+	   color: #FFFFFF;
+	   }
+    .fa-skype {
+	   background: #00aff0;
+	   color: #FFFFFF;
+	   }
+	.fa-github {
+	   background: #231F20;
+	   color: #FFFFFF;
+	   }
+    .fa-spotify {
+	   background: #1DB954;
+	   color: #231F20;
+	   }
+  </style>
+</head>
+
+<body>
+<header id="header">
+  <div class="parallax" parallax-speed="1" style="background-color:#D7B4F3;">
+  <center>
+  <marquee> <div style="color:#FF0000">
+            <h1 class="h1"> Sarzila  Sahrin  Jisha </h1>
+			</div>  
+  </marquee>
+             <h6> <br> </h6>
+  </center>
+  </div>
+  
+  <nav class="navbar navbar-default">
+  <ul>
+	<li><a href="home.html"> Home </a></li>
+	<li><a href="task2.html"> About Me </a></li>
+	<li><a href="project.html"> Projects </a></li>
+	<li class="active"><a href="contact.html"> Contact </a></li>
+	<li><a href="gallery.html"> Gallery </a></li>
+  </ul>
+  </nav>
+</header>
+
+<main>
+  <center>
+  <br>
+  <h1><b> Any Questions? </b></h1>
+  <br>
+  <div class="a">
+  <form>
+    <label for="ques"> Your Question </label> <br>
+    <input type="text" id="ques" required> <br>
+    <label for="name"> Your Name </label> <br>
+    <input type="text" id="name"> <br>
+    <label for="occup"> Your Occupation </label> <br>
+    <input type="text" id="occup"> <br>
+    <label for="country"> Your Country or Continent </label> <br>
+    <select id="country" name="continent"> 
+      <option value="select"> </option>
+      <option value="asi">Asia</option>
+      <option value="eur">Europe</option>
+      <option value="uk">United Kingdom</option>
+      <option value="usa">America</option>
+      <option value="aus">Australia</option>
+      <option value="afr">Africa</option>
+      <option value="ant">Antarctica</option>
+      <option value="rus">Russia</option>
+    </select> <br>
+    <label for="email" placeholder="@gmail.com"> Your Email </label> <br>
+    <input type="email" id="email" name="email" required> <br>
+	<br> <br>
+    <input type="submit" value="Submit"> <br> <br>
+  </form>
+</div>
+
+</form>
+
+  </center>
+</main>
+
+<footer id="footer">
+ <center>
+  <div class="nav">
+  <ul>
+	<a href="https://www.facebook.com/aronica.mathMusicWriting/" class="fa fa-facebook"> </a> 
+    <a href="https://twitter.com/aronica_22" class="fa fa-twitter"> </a> 
+    <a href="https://www.instagram.com/aronica_sarzila/" class="fa fa-instagram"> </a> 
+    <a href="https://www.linkedin.com/in/sarzila-sahrin-jisha-3189351b0/" class="fa fa-linkedin"> </a> 
+    <a href="https://join.skype.com/invite/VP7nxefoMHta" class="fa fa-skype"> </a> 
+    <a href="https://github.com/Sarzila526" class="fa fa-github"> </a> 
+    <a href="https://open.spotify.com/user/31f4o42co4l5zddluwitvljyfewe?si=b241f425dc134f9b" class="fa fa-spotify"> </a>
+  </ul> </div>
+ </center>
+</footer>
+</html>
