@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Sarzila Halum",
+        "Email": "20-42526-1@student.aiub.edu",
+        "User_Name": "Sarzila16",
+        "Password": "#Arolas29",
+        "Gender": "female",
+        "Date_of_Birth": "2000-10-16",
+        "Image": "PP\/tiger.jpg",
+        "Id": 1
+    },
+    {
+        "Name": "Nicholas",
+        "Email": "nicholas7@yahoo.com",
+        "User_Name": "N_Galitzine29",
+        "Password": "N!Galit16",
+        "Gender": "male",
+        "Date_of_Birth": "1994-09-29",
+        "Image": "PP\/119603998_1243563605995522_4909302784073315891_n.jpg",
+        "Id": 2
+    },
+    {
+        "Name": "Sarzila Sahrin Jisha",
+        "Email": "sarzila22@gmail.com",
+        "User_Name": "ssjisha16",
+        "Password": "ss#aronica24",
+        "Gender": "female",
+        "Date_of_Birth": "2001-10-16",
+        "Image": "PP\/FB_IMG_1540355495169.jpg",
+        "Id": 3
+    }
+]
